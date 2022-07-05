@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "ricardo",
+      "empresa": "Yoffi agencia",
+      "email": "correo@correo.com",
+      "telefono": "123456789",
+      "notas": "Busca prospectos para clientes",
+      "id": 1
+    }
+  ]
+}
