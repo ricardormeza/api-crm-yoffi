@@ -5,11 +5,11 @@ const Layout = () => {
 
   // console.log(location)
   const urlActual = location.pathname
-
+  
   return (
     <div className='md:flex md:min-h-screen'>
       <div className='md:w-1/4 bg-blue-900 px-5 py-10 '>
-        <h1 className='text-4xl font-black text-center text-white'>CRM - Clientes</h1>
+        <h1 className='text-4xl font-black text-center text-white'>Yoffi - Clientes</h1>
         <nav className='mt-10'>
           <Link
             className={`${urlActual === '/clientes' ? 'text-blue-300' : 'text-white' }
