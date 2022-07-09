@@ -20,6 +20,32 @@ const Inicio = () => {
     }
     obtenerClientesAPI()
   }, [])
+
+  const handleEliminar = async ( id ) => {
+    const confirmar = confirm('¿Deseas eliminar este Cliente?')
+    // console.log('Eliminando...', id)
+    // console.log(confirmar)
+    if(confirmar){
+      try{
+        const url = `http://localhost:4000/clientes/${id}`
+        const respuesta = await fetch(url, {
+          method: 'DELETE'
+        })
+        await respuesta.json()
+
+        //Refresca la página al eliminar el cliente-RECOMENDABLE NO USAR LOCATION
+        // location.reload()
+
+        //Borrar cliente en tiempo real mejor practica usando el state
+        const arrayClientes = clientes.filter( cliente => cliente.id !== id)
+        setClientes(arrayClientes)
+
+
+      }catch (error) {
+        console.log(error)
+      }
+    }
+  }
   return (
     <>
       <h1 className='font-black text-4xl text-blue-900'>Clientes</h1>
@@ -38,8 +64,10 @@ const Inicio = () => {
       <tbody>
       {clientes.map( cliente => (
         <Cliente 
+        //Pasando datos via PROPS
         key={cliente.id}
         cliente={cliente}
+        handleEliminar={handleEliminar}
       />
       ))}
       </tbody>

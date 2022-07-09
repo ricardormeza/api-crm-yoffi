@@ -9,14 +9,6 @@
       "id": 1
     },
     {
-      "nombre": "Yazmin Guardado",
-      "empresa": "Gatito",
-      "email": "yaz@yaz.com",
-      "telefono": "987654321",
-      "notas": "Sólo quiere jugar",
-      "id": 2
-    },
-    {
       "nombre": "Irais",
       "empresa": "Gobierno",
       "email": "irais@irais.com",
@@ -25,20 +17,12 @@
       "id": 3
     },
     {
-      "nombre": "Karen",
-      "empresa": "Karen Diseño",
-      "email": "karen@karen.com",
-      "telefono": "78945623",
-      "notas": "toner",
-      "id": 4
-    },
-    {
-      "nombre": "Ariana",
-      "empresa": "RestaUrante",
-      "email": "ariana@gmail.com",
-      "telefono": "784123456",
-      "notas": "Nuevo restaurante",
-      "id": 5
+      "nombre": "Jessica",
+      "empresa": "Construcciones Audifred",
+      "email": "jesica@audifred.com",
+      "telefono": "9921235878",
+      "notas": "Requiere base de datos",
+      "id": 6
     }
   ]
 }
