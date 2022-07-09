@@ -1,12 +1,44 @@
 {
   "clientes": [
     {
-      "nombre": "ricardo",
+      "nombre": "Ricardo Ramírez",
       "empresa": "Yoffi agencia",
       "email": "correo@correo.com",
       "telefono": "123456789",
       "notas": "Busca prospectos para clientes",
       "id": 1
+    },
+    {
+      "nombre": "Yazmin Guardado",
+      "empresa": "Gatito",
+      "email": "yaz@yaz.com",
+      "telefono": "987654321",
+      "notas": "Sólo quiere jugar",
+      "id": 2
+    },
+    {
+      "nombre": "Irais",
+      "empresa": "Gobierno",
+      "email": "irais@irais.com",
+      "telefono": "654321987",
+      "notas": "Cotiza nueva página web",
+      "id": 3
+    },
+    {
+      "nombre": "Karen",
+      "empresa": "Karen Diseño",
+      "email": "karen@karen.com",
+      "telefono": "78945623",
+      "notas": "toner",
+      "id": 4
+    },
+    {
+      "nombre": "Ariana",
+      "empresa": "RestaUrante",
+      "email": "ariana@gmail.com",
+      "telefono": "784123456",
+      "notas": "Nuevo restaurante",
+      "id": 5
     }
   ]
 }
